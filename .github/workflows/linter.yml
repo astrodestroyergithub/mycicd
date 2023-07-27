@@ -15,4 +15,5 @@ jobs:
         env:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
 
